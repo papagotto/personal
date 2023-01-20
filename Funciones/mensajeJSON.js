@@ -40,7 +40,7 @@ function messJSON(e , args , g){
               
             mensaje+='"' + args[x] +'":"' + e.field( args[x] ) + '"';
             
-            if(x < args.length){
+            if(x < args.length-1){
             
                mensaje+=',';
             }    
