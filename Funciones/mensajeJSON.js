@@ -51,6 +51,7 @@ function messJSON(e,args,g){
     
     }
    
+    message(mensaje);
     return mensaje; 
 
 }
