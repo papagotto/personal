@@ -5,7 +5,7 @@ function messJSON(e,args,g){
     
     mensaje+= '{';
     
-    if(len>1){
+    if(len!== undefined){
          mensaje+= '"'+ g +'": [';
     }    
     
@@ -29,7 +29,7 @@ function messJSON(e,args,g){
         mensaje+='}';
 
    }
-   if(len>1){
+   if(len!==undefined){
 
         mensaje+= ']';
    
