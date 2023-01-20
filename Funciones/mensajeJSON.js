@@ -17,13 +17,13 @@ function messJSON(e , args , g){
               
                mensaje+='"' + args[x] +'":"' + e[i].field( args[x] ) + '"';
                
-               if(x < args.length){
+               if(x < args.length-1){
                
                   mensaje+=',';
                }    
           
            }
-           if(i < e.length){
+           if(i < e.length-1){
                mensaje+=',';
            }
             mensaje+='}';
@@ -36,7 +36,7 @@ function messJSON(e , args , g){
 
         mensaje+='{';
         
-        for(x in args ){
+        for(var x in args ){
               
             mensaje+='"' + args[x] +'":"' + e.field( args[x] ) + '"';
             
