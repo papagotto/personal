@@ -13,6 +13,6 @@ function connWebHook( e , mensaje , webhook , cabeceras ) {
    		e.set("Webhook Enviado",true);
     
 	}  
-
+return resultado;
 
 }
