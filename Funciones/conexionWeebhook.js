@@ -1,4 +1,4 @@
-function connWebhook(e, mensaje, webhook, cabeceras){
+function connWebhook(e : Object, mensaje : String, webhook : String, cabeceras: Object){
 
 
 var http = http();
