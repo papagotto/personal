@@ -1,6 +1,6 @@
 function messJSON(e , args , g){
 
-    var mensaje;
+    var mensaje ='';
     
    
     
