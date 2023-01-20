@@ -1,6 +1,6 @@
-function messJSON(e,args,g){
+function messJSON(e,args,g =''){
 
-    var mensaje
+    var mensaje;
     
    
     
@@ -51,7 +51,6 @@ function messJSON(e,args,g){
     
     }
    
-    message(mensaje);
     return mensaje; 
 
 }
