@@ -1,4 +1,4 @@
-function messJSON(e , args , g){
+function messJSON(e, args, g){
 
     var mensaje ='';
     
