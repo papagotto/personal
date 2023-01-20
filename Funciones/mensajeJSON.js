@@ -2,8 +2,10 @@ function messJSON(e,args,g){
 
     var len=e.length;
     
+    mensaje+='{';
+    
     if(len>1){
-        var mensaje= '{ "'+ g +'": [';
+        var mensaje= '"'+ g +'": [';
     }    
     
     for (var i in e){
