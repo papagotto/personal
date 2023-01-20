@@ -36,7 +36,7 @@ function messJSON(e , args , g){
 
         mensaje+='{';
         
-        for(var x in args ){
+        for(x in args ){
               
             mensaje+='"' + args[x] +'":"' + e.field( args[x] ) + '"';
             
