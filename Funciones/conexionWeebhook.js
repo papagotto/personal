@@ -3,7 +3,7 @@ function connWebhook(e, mensaje, webhook, cabeceras){
 var http=http();
 
 http.headers(cabeceras);
-resultado = http.post(webhook,mensaje);
+var resultado = http.post(webhook,mensaje);
 
 if (resultado.code == 200){
     
