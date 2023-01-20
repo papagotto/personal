@@ -7,7 +7,7 @@ var resultado = http.post(webhook,mensaje);
 
 if (resultado.code == 200){
     
-    e.set("Webhook Enviado","Si")
+    e.set("Webhook Enviado",true)
     
 }  
 
