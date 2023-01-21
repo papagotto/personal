@@ -1,10 +1,6 @@
-function connWebHook ( mensaje , webhook , cabeceras ) {
-	logVar(mensaje,l);
-	logVar(webhook,l);
-	logVar(cabeceras,l);
+function connWebHook ( mensaje, webhook, cabeceras ) {
+	
 	var http = http();
-	logVar(http,l);
-	exit();
 
 	http.headers(cabeceras);
 	var resultado = http.post(webhook,mensaje);
