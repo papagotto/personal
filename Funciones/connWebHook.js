@@ -1,4 +1,4 @@
-function connWebHook( mensaje , webhook , cabeceras ) {
+function connWebHook ( mensaje , webhook , cabeceras ) {
 	logVar(mensaje,l);
 	logVar(webhook,l);
 	logVar(cabeceras,l);
@@ -14,6 +14,7 @@ function connWebHook( mensaje , webhook , cabeceras ) {
    		e.set("Webhook Enviado",true);
     
 	}  
-return resultado;
+
+	return resultado;
 
 }
