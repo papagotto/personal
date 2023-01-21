@@ -1,6 +1,7 @@
 function connWebHook( mensaje , webhook , cabeceras ) {
-
-
+	logVar(mensaje,l);
+	logVar(webhook,l);
+	logVar(cabeceras,l);
 	var http = http();
 	logVar(http,l);
 	exit();
