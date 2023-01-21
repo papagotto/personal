@@ -1,8 +1,8 @@
-function connWebHook( e , mensaje , webhook , cabeceras ) {
+function connWebHook( mensaje , webhook , cabeceras ) {
 
 
 	var http = http();
-	logVar(http,'Libreria1');
+	logVar(http,l);
 	exit();
 
 	http.headers(cabeceras);
