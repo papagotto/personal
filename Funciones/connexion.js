@@ -55,7 +55,7 @@ function messJSON (e, args, g){
 
 }
 
-function connWebHook2 ( mensaje, webhook, cabeceras ) {
+function connWebHook( mensaje, webhook, cabeceras ) {
 	
 	var http = http();
 
